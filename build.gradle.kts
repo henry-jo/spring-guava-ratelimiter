@@ -19,6 +19,12 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+	implementation("com.google.guava:guava:31.1-jre")
+
+	testImplementation("io.kotest:kotest-runner-junit5:4.4.3")
+	testImplementation("io.kotest:kotest-assertions-core:4.4.3")
+	testImplementation("io.kotest:kotest-assertions-json:4.4.3")
+	testImplementation("io.kotest:kotest-extensions-spring:4.4.3")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
